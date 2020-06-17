@@ -1,0 +1,117 @@
+{
+"Actor": {
+	"types": ["pilot","mecha"],
+	"templates": {
+	"universalResources": {
+		"Name": "",
+		"Health": {
+			"min": 0,
+			"value": 6,
+			"max": 6
+		},
+		"Armor": 0,
+		"Speed": 4,
+		"E-Defense": 0,
+		"Evasion": 0,
+		"Grit": 0
+	},
+	"pilotResources": {		
+		"biography": "",
+		"hairColor": "",
+		"LL": 0,
+	},
+	"mechaResources": {
+		"Structure": {
+			"min": 0,
+			"value": 4,
+			"max": 4
+		},
+		"Heat" : {
+			"min": 0,
+			"value": 0,
+			"max": 6
+		}
+		"ReactorStress": {
+			"min": 0,
+			"value": 4,
+			"max": 4
+		},
+		"RepairCapacity": {
+			"min": 0,
+			"value": 5,
+			"max": 5
+		},
+		"CorePower": {
+			"min": 0,
+			"value": 1,
+			"max": 1
+		},
+		"SystemPoints": 0,
+		"Hull": 0,
+		"Agility": 0,
+		"Systems": 0,
+		"Engineering": 0
+	}
+  },
+  "pilot": {
+	"templates": ["pilotResources", "universalResources"]
+  },
+  "mecha": {
+	"templates": ["mechaResources", "universalResources"]
+  },
+},
+"Item": {
+  "types": ["Armor", "Pilot Gear", "Trigger", "License", "Core Bonus", "Weapon", "System"],
+  "templates": {
+	"weapon": {
+	},	
+	"Limited": {
+		"min": 0,
+		"max": 0,
+		"value": 0
+	}
+  },
+  "Armor": {
+    "Armor": 0,
+	"Health": 0,
+	"E-Defense": 10,
+	"Evasion": 10,
+	"Speed": 4
+  },
+  "Pilot Gear" : {
+	"templates": ["Limited"],
+	"Action": "",
+	"Description": ""
+  },
+  "Trigger": {
+	"Name": "",
+	"Value": 0
+  },
+  "License": {
+	"Company": "",
+	"Frame": "",
+	"Rating": 0
+  },
+  "Core Bonus": {
+	"Company": "",
+	"Name": "",
+	"Effect": ""
+  },
+  "Weapon": {
+	"templates": ["Limited"],
+	"damage": "",
+	"range": 0,
+	"threat": 0,
+	"mount": "",
+	"type": "",
+	"special": ""
+  },
+  "System": {
+	"Name": "",
+	"SP": "",
+	"Action": "Protocol",
+	"Effect": ""
+	"Tags": ""
+  }
+}
+}
