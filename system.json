@@ -2,7 +2,7 @@
   "name": "lancerpg",
   "title": "Lancer",
   "description": "An implementation of Massif Press's Lancer system.",
-  "version": 0.0.1,
+  "version": 0.1,
   "minimumCoreVersion": "0.6.2",
   "compatibleCoreVersion": "0.6.2",
   "templateVersion": 1,
@@ -14,8 +14,8 @@
   "gridDistance": 1,
   "gridUnits": "units",
   "primaryTokenAttribute": "health",
-  "url": "https://gitlab.com/foundrynet/worldbuilding/",
-  "manifest": "https://gitlab.com/foundrynet/worldbuilding/raw/master/system.json",
-  "download": "https://gitlab.com/foundrynet/worldbuilding/-/archive/release-036/worldbuilding-release-036.zip",
+  "url": "https://github.com/gblosser42/FoundryLancer",
+  "manifest": "https://raw.githubusercontent.com/gblosser42/FoundryLancer/master/system.json",
+  "download": "https://github.com/gblosser42/FoundryLancer/archive/master.zip",
   "license": "LICENSE.txt"
 }
